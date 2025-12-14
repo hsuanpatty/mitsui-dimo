@@ -214,7 +214,7 @@ input{
 }
 
 .modal__inner {
-  max-height: 94vh;
+  max-height: 96vh;
   overflow-y: auto;
   background: #fff;
   border-radius: 10px;
@@ -368,6 +368,14 @@ input{
 
     padding-top: 20px;
 }
+
+@media (max-width: 1399.98px) { 
+  .modal__inner {
+    height: 96vh;         
+    max-height: 96vh;
+  }
+}
+
 
 @media (max-width: 575.98px) {
   .modal-row p {
