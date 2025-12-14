@@ -1387,8 +1387,8 @@ input{
   background-image: url(../images/top.png);
   display: none;            
   position: fixed;
-  width: 48px;
-  height: 48px;
+  width: 45px;
+  height: 45px;
   bottom: 20px;
   right: 30px;
   border-radius: 99rem;
@@ -1409,3 +1409,4 @@ input{
     opacity: 0.9;
   } 
 }
+
