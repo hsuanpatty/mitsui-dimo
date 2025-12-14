@@ -1183,7 +1183,9 @@ input{
     margin: auto;
   }
 
-
+  .mitsui-faq-item .faq-icon {
+    padding-left: 0;
+  }
 }
 
 
@@ -1377,8 +1379,8 @@ input{
   background-image: url(../images/top.png);
   display: none;            
   position: fixed;
-  width: 45px;
-  height: 45px;
+  width: 48px;
+  height: 48px;
   bottom: 20px;
   right: 30px;
   border-radius: 99rem;
