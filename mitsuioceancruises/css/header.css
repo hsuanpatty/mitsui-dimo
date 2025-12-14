@@ -257,7 +257,7 @@ input{
     top: 0;
     left: -100%;
     width: 100%;
-    max-width: 320px;
+    max-width: 360px;
     height: 100vh;
     padding: 20px;
     box-shadow: 0 0 10px hsla(0, 0%, 0%, .1);
@@ -618,3 +618,4 @@ input{
     .container { max-width: 1350px; }
     .banner-content { left: 110px; max-width: 460px; }
 }
+
