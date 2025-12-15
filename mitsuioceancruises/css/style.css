@@ -730,6 +730,8 @@ footer a {
     font-size: var(--fs-7);
     letter-spacing: 0.05rem;
     transition: var(--transition-timing);
+
+    word-wrap:break-word;
 }
 
 .footer-nav-link:hover {
@@ -828,10 +830,13 @@ footer a {
 }
 
 @media (min-width: 1024px) {
-    .footer-nav-list {
-        min-width: calc(50% - 16px);
-        width: calc(50% - 16px);
-    }
+  .footer-nav-list:first-child {
+    flex: 0 0 60%;
+  }
+
+  .footer-nav-list:last-child {
+    flex: 0 0 35%;
+  }
 
    .footer-nav-list.follow-us {
       display: none;
